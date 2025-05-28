@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='bg-[#F5F5F4] h-full'>
       <Navbar />
-      <main className='pt-60'>
+      <main className='pt-16'>
         <Home />
         <AboutMe />
         <Projects />
