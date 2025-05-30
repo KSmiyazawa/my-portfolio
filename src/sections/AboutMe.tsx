@@ -5,23 +5,23 @@ import HexIcon from '../components/HexIcon';
 function AboutMe() {
   return (
     <section id='about' className='flex flex-col items-center justify-center gap-5 p-10'>
-      <h1 className='text-center text-5xl text-[#E07A5F] border-b-4 border-[#81B29A] pb-2'>About Me</h1>
-      <div className='flex items-center gap-10'>
-        <div className='flex-1'>
-          <p className='text-lg leading-relaxed mt-6'>
+      <h1 className='font-[Radley] text-center text-5xl text-[#E07A5F] border-b-4 border-[#81B29A] pb-2'>About Me</h1>
+      <div className='flex items-center gap-10 font-[Carlito] text-[#2D2D2D]'>
+        <div className='flex-1 text-xl'>
+          <p className='leading-relaxed mt-6'>
             I'm a Filipino-Japanese full-stack developer who grew up in the Philippines and is currently based in Tokyo, Japan.
           </p>
-          <p className='text-lg leading-relaxed mt-2'>
+          <p className='leading-relaxed mt-2'>
             I began my web development journey in September 2024 after seeing how technology can streamline business operations and make a real impact. Since then, I've been continuously learning new tools and refining my skills with the goal of building technology that’s both meaningful and user-focused.
           </p>
-          <p className='text-lg leading-relaxed mt-2'>
+          <p className='leading-relaxed mt-2'>
             My core stack includes TypeScript, React, and Node.js, but I also have experience with Java, Vue.js, Next.js, and Nuxt.js.
           </p>
-          <p className='text-lg leading-relaxed mt-2'>
+          <p className='leading-relaxed mt-2'>
             Outside of coding, I enjoy physical activities like hiking, pilates, and bouldering. They help me stay grounded and energized.
           </p>
         </div>
-        <div className="flex flex-col items-center text-4xl text-[#2D2D2D]">
+        <div className="flex flex-col items-center text-4xl ">
           <div className='flex gap-3'>
             <HexIcon icon={SiHtml5} label="HTML" />
             <HexIcon icon={SiCss3} label="CSS" />

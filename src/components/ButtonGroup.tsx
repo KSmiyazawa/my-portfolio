@@ -10,7 +10,7 @@ function ButtonGroup({ appLink, githubLink }: ButtonGroupProps) {
             href={appLink}
             target="_blank"
             rel="noopener noreferrer"
-            className='w-1/3 p-2 h-10 bg-[#E07A5F] text-white text-center rounded'
+            className='px-8 py-2 bg-[#E07A5F] font-[Carlito] text-lg text-white text-center rounded transform transition-all duration-200 hover:scale-105'
         >
             View App
         </a>
@@ -18,7 +18,7 @@ function ButtonGroup({ appLink, githubLink }: ButtonGroupProps) {
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className='w-1/3 p-2 h-10 border-1 border-[#E07A5F] text-[#E07A5F] text-center rounded'
+            className='px-8 py-2 border-1 border-[#E07A5F] font-[Carlito] text-lg text-[#E07A5F] text-center rounded transform transition-all duration-200 hover:scale-105'
         >
             View Code
         </a>

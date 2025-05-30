@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Radley&display=swap');
 @import "tailwindcss";
 
 *,
@@ -12,4 +13,29 @@ html, body, #root {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+}
+
+.shiny-text {
+    background-image: linear-gradient(
+        90deg,
+        #e07a5f 0%,
+        #f29d87 20%,
+        #e07a5f 40%,
+        #f29d87 60%,
+        #e07a5f 80%,
+        #f29d87 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+  }
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
