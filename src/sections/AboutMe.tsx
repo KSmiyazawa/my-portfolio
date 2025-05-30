@@ -4,7 +4,7 @@ import HexIcon from '../components/HexIcon';
 
 function AboutMe() {
   return (
-    <section id='about' className='flex-col items-center justify-center gap-10 p-10'>
+    <section id='about' className='flex flex-col items-center justify-center gap-5 p-10'>
       <h1 className='text-center text-5xl text-[#E07A5F] border-b-4 border-[#81B29A] pb-2'>About Me</h1>
       <div className='flex items-center gap-10'>
         <div className='flex-1'>
