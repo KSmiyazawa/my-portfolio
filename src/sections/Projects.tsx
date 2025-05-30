@@ -10,12 +10,25 @@ function Projects() {
         <div className=' bg-[#81B29A] basis-xl p-20 h-full'>
           <img src='/arcane-kitchen.png' className='absolute -left-20 top-1/2 -translate-y-1/2 h-9/10'/>
         </div>
-        <div className='text-[#2D2D2D] flex-1 flex flex-col ietms-center justify-center gap-5 p-10'>
+        <div className='text-[#2D2D2D] flex-1 flex flex-col justify-center gap-5 p-10'>
           <h2 className='text-4xl'>Arcane Kitchen</h2>
           <p>A fantasy RPG-themed meal planning app that makes healthy eating fun and engaging. Built with React, TypeScript, and Node.js, and uses OpenAI for recipe parsing and intelligent ingredient substitutions.</p>
           <ButtonGroup appLink='https://www.arcane-kitchen.com/' githubLink='https://github.com/Arcane-Kitchen'/>
         </div>
       </div>
+
+      {/* WiseTogether */}
+      <div className='flex h-120'>
+        <div className='text-[#2D2D2D] flex flex-col justify-center gap-5 p-10 basis-xl'>
+          <h2 className='text-4xl'>WiseTogether</h2>
+          <p>A couples budgeting app that helps partners manage and track their finances together. Built with React, TypeScript, and Node.js, and uses OCR and OpenAI for receipt parsing and automatic expense categorization.</p>
+          <ButtonGroup appLink='https://wisetogether.onrender.com/' githubLink='https://github.com/KSmiyazawa/WiseTogether-frontend'/>
+        </div>
+        <div className=' bg-[#81B29A] flex flex-1 p-10 h-full items-center justify-center'>
+          <img src='/wise-together.png' className='h-4/5'/>
+        </div>
+      </div>
+
     </section>
   )
 }

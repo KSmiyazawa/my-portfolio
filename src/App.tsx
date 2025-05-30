@@ -7,7 +7,7 @@ import Projects from './sections/Projects'
 function App() {
 
   return (
-    <div className='bg-[#F5F5F4] h-full'>
+    <div className='bg-[#F5F5F4] w-full h-full'>
       <Navbar />
       <main className='pt-16 text-[#2D2D2D]'>
         <Home />
